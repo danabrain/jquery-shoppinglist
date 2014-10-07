@@ -1,0 +1,70 @@
+body {
+  background-color:#FFFFE0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: -5px -5px 5px #FFCC99;
+}
+
+.img {
+  padding: 20px;
+}
+
+.script {
+  padding: 20px;
+}
+
+.header {
+  background-color: #CCFFCC;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  border-bottom: 5px solid #FFCC99;
+}
+
+.main {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+}
+
+p {
+  color: #B28F6B;
+  font-weight: 800;
+}
+
+.add {
+  display: inline-block;
+  width:300px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 35px;
+  /*border: 4px solid #FFCC99;
+  border-radius: 50%;*/
+}
+
+.instructions {
+  padding: 0px 5px 5px 5px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item-cross {
+  text-decoration: line-through;
+}
+
+.reset {
+  display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+  width: 250px;
+  /*border: 4px solid #FFCC99;
+  border-radius: 50%;*/
+}
+
