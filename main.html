@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="app.js"></script>
 </head>
 <body>
   <div class="header">
@@ -15,12 +17,18 @@
     </div>
   </div>
   <div class="main">
-    <p></p>
-    <p class= "add">Add new item</p>
-    <p class= "instructions">(Click to cross off!)</p>
-    <p class= "item" >Bread</p>
-    <p class= "item" >Milk</p>
-    <p class= "item-cross" >Veggies</p>
+    <input class= "add" type="text" value="Add new item">
+    <p class= "instructions">(Click to cross off!  Click again to un-cross!)</p>
+    <div class="list-full">
+      <ul>
+      <li class="item">Bread</li>
+      <li class="item">Milk</li>
+      <li class="item">Veggies</li>
+    </ul>
+    </div>
+    <div class="list-empty">
+      <p>Empty List</p>
+    </div>
     <p class="reset"> RESET</p>
   </div>
 </body>
